@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Calculator BMI</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section>
+        <div class="input-form">
+          <form>
+            <div class="header">
+              <h1>Check your BMI</h1>
+              <p>Enter Your Weight and height below to check your BMI result</p>
+            </div>
+            <label for="weight">Put your weight in here (KG)</label>
+            <input type="number" name="weight" id="weight" />
+            <label for="height">And your height in here (CM)</label>
+            <input type="number" name="height" id="height" />
+            <br />
+            <button id="btn-submit" type="submit">Calculate BMI</button>
+            <div id="result"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
